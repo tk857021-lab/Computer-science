@@ -1,0 +1,10 @@
+.side-bar{
+    
+        top: 56px; bottom: 0;
+        left: 0; width: 70px;
+        position: fixed;
+        background-color: white; ; 
+        border-bottom-width:  1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(234, 229, 229);
+}
