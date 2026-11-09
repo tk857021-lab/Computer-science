@@ -36,6 +36,7 @@
     border-bottom-color: rgb(234, 229, 229);
     padding: 0px 16px;
     background: white;
+    z-index: 100;
 }
 
 .start-section {
@@ -110,6 +111,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
+}
+.notification-cont{
+    position: relative;
+
+}
+.noti-cont{
+    position: absolute;
+    background-color: rgb(193, 5, 5);
+    color: white;
+    width: 10px;
+    
+    border-radius: 50%;
+    top: 9px;
+    right: 9px;
+    font-size: 8px;
+    font-weight: 500;
 }
