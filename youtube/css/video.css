@@ -47,6 +47,7 @@ body {
   height: 40px;
   border-radius: 50%;
   display: block;
+
 }
 
 .video-info {
@@ -85,3 +86,21 @@ body {
  
 }
 
+.thumbnail-row{
+  position: relative;
+}
+.video-time{
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: black;
+  color: #ccc;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+}
